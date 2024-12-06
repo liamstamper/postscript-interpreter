@@ -12,3 +12,8 @@ This project is a Haskell-based implementation of an interpreter for a subset of
     <td><img src="/week1/ref/simpleshape.png" alt="Simple Shape" width="420"/></td>
   </tr>
 </table>
+
+### Testing Week 1 Code:
+Make sure you have [Cairo](https://www.cairographics.org/) and [Haskell](https://www.haskell.org/) installed on your local machine. Then run the following command inside of the /week1 directory:
+
+```cabal run postscript -- testfile.ps out.png```
